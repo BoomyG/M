@@ -20,14 +20,17 @@ body{
 }
 
 header{
-    padding: 50px 0px 80px 0px;
+    padding: 50px 0px 20px 0px;
+            display: inherit;
+        align-items: flex-start;
+        text-align: center;
 
         
 }
 
 section{
-    width: 420px;
-    height: 300px;
+    width: 380px;
+    height: 250px;
     display: grid;
     float: left;
     justify-content: space-around;
@@ -46,8 +49,8 @@ h1 {
 }
 
 h2 {
-  padding: 40px 20px 0 35px;
-  font-size: 30px;
+  margin: 20px 20px 0px 20px;
+  font-size: 25px;
   text-align: left;
   font-family: Franklin Gothic Medium;
 }
@@ -68,7 +71,7 @@ p {
 
    ul > li{
         display: inherit;
-        align-items: center;
+        align-items: flex-start;
         text-align: center;
         padding: 2px .5px;
         margin: 0px 0px 30px 0px;
@@ -90,15 +93,16 @@ p {
 nav {
 
     float:left;
-    align-items: center;
-    padding: 0px 60px 0px 0px;
+    display: inherit;
+    align-items: stretch;
+    padding: 0px 40px 0px 0px;
     width: 100px;
-    height: 1400px;
+    height: 1000px;
 
 }
      nav .boton {
     float:left;
-    align-items: center;
+    align-items: baseline;
     width: 120px;
     height: 400px;
     position: sticky;
@@ -136,13 +140,36 @@ footer{
         display: inherit;
         align-items: center;
         text-align: center;
-        font-size: 17px;
+        padding: 5px 2px;
+        font-size: 22px;
         }
+          div {
+    float:right;
+    align-items: flex-start;
+    padding: 20px 0px 0px 0px;
+    width: 90px;
+    height: 100%;
+    margin: 0 auto;
 
-img^{
-          padding: 20px;
 }
+     
+     div .rapido {
+    float:right;
+    align-items: flex-start;
+    width: 90px;
+    height: 400px;
+    position: sticky;
+    position:-webkit-sticky;
+    position: -mozz-sticky;
+    position: -ms-sticky;
+    position:  fixed;
+    margin: 0 auto;
+
+}
+
+
      }
+
 
 
 
