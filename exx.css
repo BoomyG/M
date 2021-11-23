@@ -46,15 +46,14 @@ h1 {
 }
 
 h2 {
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 0 35px;
   font-size: 30px;
-  text-align: center;
+  text-align: left;
   font-family: Franklin Gothic Medium;
 }
 
      h2 span.resaltar{
          color: #390096;
-         text-decoration: underline;
          text-transform: uppercase;
      }
 
