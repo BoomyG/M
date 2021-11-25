@@ -13,105 +13,95 @@ html {
 
 body{
     margin: 0 auto;
-    width: 1500px;
+    width: 1000px;
     background-color: #ffffff;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 header{
-    padding: 50px 100px 20px 70px;
+    padding: 50px 0px 20px 0px;
+            display: inherit;
+        align-items: flex-start;
+        text-align: center;
 
         
 }
 
 section{
-    width: 333px;
-    height: 300px;
+    width: 253px;
+    height: 250px;
+    display: grid;
     float: left;
     justify-content: space-around;
     margin: 10px 0px 40px 0px;
     text-align: center;
-    background-color: #E9E1FF;
-}
-    
-     
-section .notas{
-    width: 1000px;
-    height: 1500px;
-    float: left;
+    background-color: #EEDAFF;
 }
 
 h1 {
 
   color: #ffffff;
-  font-size: 25px;
+  font-size:15px;
   text-align: center;
   font-family: Franklin Gothic Medium;
   text-transform: inherit;
 }
 
 h2 {
-    max-width: 700PX;
-   font-size: 60px;
-   text-align: center;
-   font-family: Franklin Gothic Medium;
+  margin: 20px 20px 0px 20px;
+  font-size: 35px;
+  text-align: left;
+  font-family: Franklin Gothic Medium;
 }
 
 
 
 p {
-    padding: 20PX;
-    font-size: 20PX;
-  max-width: 300px;
+  max-width: 900px;
   margin: 0 auto;
+  padding: 16px;
   text-align: left;
   font-family: Trebuchet MS:
 }
-     
-        a{
-        display: inherit;
-        align-items: center;
-        text-align: center;
-        padding: 2px .5px;
-
-        }
 
 
    ul > li{
         display: inherit;
-        align-items: center;
+        align-items: flex-start;
         text-align: center;
         padding: 2px .5px;
-        margin: 0px 1px 30px 0px;
+        margin: 0px 0px 30px 0px;
         background-color: dimgrey;
         font-size: 16px;
         color: #ffffff;
-        border-radius: 5px;
+        border-radius: 8px;
         }
-     }
-
 
     ul > li:hover{
         display: inherit;
-        padding: px px;
+        align-items: center;
+        text-align: center;
+        padding: 5px 2px;
         background-color: #704C8E;
-        font-size: 11px;
+        font-size: 22px;
         }
 
 nav {
+
     float:left;
-    align-items: center;
-    padding: 20px 30px 0px 0px;
-    width: 200px;
-    height: 2400px;
+    display: inherit;
+    align-items: stretch;
+    padding: 0px 40px 0px 0px;
+    width: 100px;
+    height: 1900px;
 
 }
      nav .boton {
     float:left;
-    align-items: center;
-    width: 200px;
-    height: 380px;
+    align-items: baseline;
+    width: 120px;
+    height: 400px;
     position: sticky;
     position:-webkit-sticky;
     position: -mozz-sticky;
@@ -127,8 +117,8 @@ footer{
     align-items: center;
     text-align: center;
     float: left;
-    margin: 30px 0px 0px 200px;
-    width: 600px;
+    margin: 30px 0px 0px 100px;
+    width: 400px;
     height: 350px;
     background-color: #ffffff;
     padding: 20px 20px 20px 250px;
@@ -136,6 +126,7 @@ footer{
    ol > li{
         display: inline-block;
         padding: 0px 0px;
+        margin: 5px;
         background-color: #ffffff;
         color: #111111;
         font-size: 22;
@@ -149,26 +140,33 @@ footer{
         padding: 5px 2px;
         font-size: 22px;
         }
-
-     div {
+          div {
     float:right;
-    align-items: center;
-    padding: 20px 70px 0px 0px;
-    width: 200px;
+    align-items: flex-start;
+    padding: 20px 0px 0px 0px;
+    width: 90px;
     height: 100%;
+    margin: 0 auto;
 
 }
      
      div .rapido {
     float:right;
-    align-items: center;
-    width: 200px;
+    align-items: flex-start;
+    width: 90px;
     height: 400px;
     position: sticky;
     position:-webkit-sticky;
     position: -mozz-sticky;
     position: -ms-sticky;
     position:  fixed;
+    margin: 0 auto;
 
 }
+
+
+     }
+
+
+
 
