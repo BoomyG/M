@@ -34,7 +34,7 @@ section{
     display: grid;
     float: left;
     justify-content: space-around;
-    margin: 10px 0px 40px 0px;
+    margin: 0px 0px 40px 0px;
     text-align: center;
     background-color: #EEDAFF;
 }
@@ -92,7 +92,7 @@ nav {
     float:left;
     display: inherit;
     align-items: stretch;
-    padding: 0px 40px 0px 0px;
+    padding: 20px 40px 0px 0px;
     width: 100px;
     height: 1900px;
 
@@ -166,6 +166,8 @@ footer{
 
 
      }
+
+
 
 
 
