@@ -66,6 +66,14 @@ p {
   font-family: Century Gothic;
 }
 
+h3 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Century Gothic;
+}
+
 
    ul > li{
         display: inherit;
