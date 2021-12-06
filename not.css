@@ -61,7 +61,14 @@ h2 {
 
 }
 
-
+h3 {
+  color: #333333;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  font-family: Century Gothic;
+}
 
 p {
   max-width: 900px;
