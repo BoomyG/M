@@ -29,7 +29,7 @@ header{
 
 section{
     width: 760px;
-    height: 600px;
+    height: auto;
     float: left;
     justify-content: flex-end;
     margin: 0px 0px 40px 0px;
