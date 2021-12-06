@@ -29,7 +29,7 @@ header{
 
 section{
     width: 380px;
-    height: 250px;
+    height: 224px;
     display: grid;
     float: left;
     justify-content: space-around;
