@@ -143,12 +143,12 @@ footer{
         font-family: Trebuchet MS;
         border-radius: 10px;
 }
-  ol > li:hover{
+         ol > li:hover{
         display: inherit;
         align-items: center;
         text-align: center;
         font-size: 15px;
-        background-color: #FFADDB;
+        background-color: #FFEBF6;
         }
      
           div {
