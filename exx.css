@@ -102,7 +102,7 @@ nav {
     float:left;
     display: inherit;
     align-items: flex-start;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 40px 0px 0px;
     width: 100px;
     height: 3400px;
 
@@ -110,8 +110,7 @@ nav {
      nav .boton {
     float:left;
     align-items: flex-start;
-    width: 120px;
-    height: 400px;
+
     position: sticky;
     position:-webkit-sticky;
     position: -mozz-sticky;
