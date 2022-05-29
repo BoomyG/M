@@ -110,7 +110,8 @@ nav {
      nav .boton {
     float:left;
     align-items: flex-start;
-
+    width: 120px;
+    height: 400px;
     position: sticky;
     position:-webkit-sticky;
     position: -mozz-sticky;
